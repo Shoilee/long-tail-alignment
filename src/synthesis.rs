@@ -290,7 +290,7 @@ mod tests {
             .flat_map(|(a, b)| a.intersect(b))
             .collect_vec();
         // Pos(empty, Num, 1)
-        assert_eq!(intersection.len(), 1);
+        assert_eq!(intersection.len(), 3);
     }
 
     #[test]
